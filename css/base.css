@@ -3501,3 +3501,9 @@ img.progicons {
 .site, #content, #page, .homeQuote {
   height: 100%;
 }
+
+
+.newsletterModal {
+  color: #333;
+  text-shadow:none;
+}
