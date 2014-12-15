@@ -3559,3 +3559,7 @@ img.progicons {
   line-height: 40px;
   margin-bottom: 50px;
 }
+/* line 1075, ../sass/base.scss */
+.blog .post strong {
+  color: white;
+}
