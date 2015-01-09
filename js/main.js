@@ -6,11 +6,12 @@ $(function(){
       title = result.name;
       description = result.description;
       date = result.time;
-      venue = result.venue.name;
-      eventUrl = result.event_url;
-      if(venue) {
+      venue = "";
+      if (result.venue && result.venue.name) {
+        venue = result.venue.name;
         latLng = [result.lat, result.lon];
       }
+      eventUrl = result.event_url;
       $('#date span').html(new Date(date).toLocaleDateString());
       $('#next-meetup #title').html(title);
       $('#next-meetup #venue').html(venue);
